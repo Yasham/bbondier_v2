@@ -1,17 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e40b6257-0fac-4b71-a3b3-6d1fc33af36a" name="Default Changelist" comment="" />
+    <list default="true" id="e40b6257-0fac-4b71-a3b3-6d1fc33af36a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bbondier.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bbondier.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
@@ -112,6 +143,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ZUWewTUvaiWNk1WfZdHYCDuvvo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -120,10 +152,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm run dev">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -133,6 +170,30 @@
       <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="npm run dev" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.npm run dev" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -145,6 +206,9 @@
       <option name="presentableId" value="Default" />
       <updated>1584894251544</updated>
       <workItem from="1584894254025" duration="408000" />
+      <workItem from="1584979855808" duration="161000" />
+      <workItem from="1585070112632" duration="37000" />
+      <workItem from="1585070155351" duration="4092000" />
     </task>
     <servers />
   </component>
@@ -160,29 +224,41 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="651" y="125" key="#PHP/0.0.1920.1080@0.0.1920.1080" timestamp="1584894561339" />
-    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584894565032">
+    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585070746441">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1584894565032" />
-    <state width="1878" height="462" key="GridCell.Tab.0.bottom" timestamp="1584894661987">
+    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585070746441" />
+    <state x="648" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585070138954">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="462" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584894661987" />
-    <state width="1878" height="462" key="GridCell.Tab.0.center" timestamp="1584894661985">
+    <state x="648" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585070138953" />
+    <state x="571" y="142" key="CommitChangelistDialog2" timestamp="1585074945279">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="462" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584894661985" />
-    <state width="1878" height="462" key="GridCell.Tab.0.left" timestamp="1584894661985">
+    <state x="571" y="142" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1585074945279" />
+    <state width="1878" height="462" key="GridCell.Tab.0.bottom" timestamp="1585074558227">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="462" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584894661985" />
-    <state width="1878" height="462" key="GridCell.Tab.0.right" timestamp="1584894661986">
+    <state width="1878" height="462" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585074558227" />
+    <state width="1878" height="462" key="GridCell.Tab.0.center" timestamp="1585074558226">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="462" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584894661986" />
-    <state x="653" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1584894255988">
+    <state width="1878" height="462" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585074558226" />
+    <state width="1878" height="462" key="GridCell.Tab.0.left" timestamp="1585074558225">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="653" y="372" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1584894255988" />
+    <state width="1878" height="462" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585074558225" />
+    <state width="1878" height="462" key="GridCell.Tab.0.right" timestamp="1585074558227">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="462" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585074558227" />
+    <state x="653" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1584979860314">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="653" y="372" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1584979860314" />
+    <state x="625" y="202" width="670" height="676" key="search.everywhere.popup" timestamp="1585074881618">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="202" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1585074881618" />
   </component>
 </project>
