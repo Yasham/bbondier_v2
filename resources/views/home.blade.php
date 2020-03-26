@@ -25,7 +25,7 @@
                 </p>
                 <br />
                 <p>
-                    Je travaille principalement avec PHP et React. Je partage mon temps libre entre sports et éducaction
+                    Je travaille principalement avec PHP et React. Je partage mon temps libre entre sports et éducation
                     financière.
                 </p>
                 <br />
